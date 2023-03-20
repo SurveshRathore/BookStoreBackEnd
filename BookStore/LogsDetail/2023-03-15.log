@@ -1,0 +1,835 @@
+2023-03-15 10:52:43.2318|DEBUG|BookStore.Program|init main 
+2023-03-15 10:52:53.3876|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-03-15 10:52:54.0116|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Rathour\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-03-15 10:52:54.5122|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Rathour\AppData\Local\ASP.NET\DataProtection-Keys\key-1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8.xml'. 
+2023-03-15 10:52:54.9768|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8}. 
+2023-03-15 10:52:55.1412|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8} with expiration date 2023-03-27 09:25:20Z as default key. 
+2023-03-15 10:52:55.6211|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-03-15 10:52:55.6211|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-03-15 10:52:55.6211|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-03-15 10:52:55.6312|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-03-15 10:52:55.6312|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-03-15 10:52:55.6312|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8} as the default key. 
+2023-03-15 10:52:55.6312|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8} was loaded during application startup. 
+2023-03-15 10:52:57.4003|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'. 
+2023-03-15 10:52:57.6948|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: A97F343284D0AE9D116BA6CFF6056E23DB0A5CFC) 
+2023-03-15 10:52:57.8183|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2023-03-15 10:52:57.8183|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2023-03-15 10:52:57.8183|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly BookStore 
+2023-03-15 10:52:57.8183|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-03-15 10:52:57.8183|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-03-15 10:52:57.8183|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-03-15 10:52:57.8183|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-03-15 10:52:57.8183|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\dotnet\workshop\BookStore\BookStore 
+2023-03-15 10:52:57.8183|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-03-15 10:52:58.0651|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP52LB9NFGQ" received FIN. 
+2023-03-15 10:52:58.0851|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGQ" accepted. 
+2023-03-15 10:52:58.0851|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGQ" started. 
+2023-03-15 10:52:58.6946|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. 
+2023-03-15 10:52:58.7711|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGQ" stopped. 
+2023-03-15 10:52:58.8078|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP52LB9NFGQ" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-03-15 10:52:59.0662|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" accepted. 
+2023-03-15 10:52:59.0974|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" started. 
+2023-03-15 10:52:59.6310|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2023-03-15 10:52:59.6800|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 10:52:59.6800|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received SETTINGS frame for stream ID 0 with length 30 and flags NONE 
+2023-03-15 10:52:59.6800|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 10:52:59.7315|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 10:52:59.7315|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received HEADERS frame for stream ID 1 with length 459 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 10:52:59.9311|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 10:53:00.0027|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Swagger/index.html   
+2023-03-15 10:53:00.1389|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-03-15 10:53:00.1389|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 10:53:00.5124|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2023-03-15 10:53:00.5274|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending HEADERS frame for stream ID 1 with length 91 and flags END_HEADERS 
+2023-03-15 10:53:00.9119|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 10:53:00.9143|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 10:53:00.9143|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 10:53:00.9143|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 10:53:00.9143|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 1 with length 1003 and flags NONE 
+2023-03-15 10:53:00.9143|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 1 with length 65 and flags NONE 
+2023-03-15 10:53:00.9143|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 1 with length 16 and flags NONE 
+2023-03-15 10:53:00.9349|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received HEADERS frame for stream ID 3 with length 109 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 10:53:00.9349|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received HEADERS frame for stream ID 5 with length 82 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 10:53:00.9349|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received HEADERS frame for stream ID 7 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 10:53:00.9349|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Swagger/swagger-ui-bundle.js   
+2023-03-15 10:53:00.9349|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js   
+2023-03-15 10:53:00.9349|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink   
+2023-03-15 10:53:00.9349|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 10:53:00.9349|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending HEADERS frame for stream ID 3 with length 151 and flags END_HEADERS 
+2023-03-15 10:53:00.9535|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2023-03-15 10:53:00.9535|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM 
+2023-03-15 10:53:00.9535|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 3 with length 11988 and flags NONE 
+2023-03-15 10:53:00.9535|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM 
+2023-03-15 10:53:00.9606|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 19.6255ms 200 application/javascript; charset=utf-8 
+2023-03-15 10:53:00.9765|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received HEADERS frame for stream ID 9 with length 67 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 10:53:00.9765|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 987.3679ms 200 text/html;charset=utf-8 
+2023-03-15 10:53:00.9765|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received HEADERS frame for stream ID 11 with length 75 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 10:53:00.9765|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Swagger/swagger-ui-standalone-preset.js   
+2023-03-15 10:53:00.9932|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 10:53:00.9932|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Swagger/swagger-ui.css   
+2023-03-15 10:53:00.9932|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending HEADERS frame for stream ID 7 with length 196 and flags END_HEADERS 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 9986 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 10240 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 10240 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 10240 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 10240 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 10240 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 10240 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 10240 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 10240 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 10240 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 10240 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 10240 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 10240 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 10240 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 9975 and flags NONE 
+2023-03-15 10:53:01.2026|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM 
+2023-03-15 10:53:01.2026|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 268.9753ms 200 text/javascript; charset=UTF-8 
+2023-03-15 10:53:01.2126|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-03-15 10:53:01.2126|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-03-15 10:53:01.2126|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-03-15 10:53:01.2126|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /swagger-ui.css was not modified 
+2023-03-15 10:53:01.2126|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /swagger-ui-bundle.js was not modified 
+2023-03-15 10:53:01.2126|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /swagger-ui-standalone-preset.js was not modified 
+2023-03-15 10:53:01.2126|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /swagger-ui.css 
+2023-03-15 10:53:01.2126|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /swagger-ui-standalone-preset.js 
+2023-03-15 10:53:01.2126|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /swagger-ui-bundle.js 
+2023-03-15 10:53:01.2126|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending HEADERS frame for stream ID 11 with length 166 and flags END_STREAM, END_HEADERS 
+2023-03-15 10:53:01.2126|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending HEADERS frame for stream ID 9 with length 180 and flags END_STREAM, END_HEADERS 
+2023-03-15 10:53:01.2126|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending HEADERS frame for stream ID 5 with length 180 and flags END_STREAM, END_HEADERS 
+2023-03-15 10:53:01.2126|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 226.9569ms 304 text/css 
+2023-03-15 10:53:01.2126|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 231.9525ms 304 application/javascript 
+2023-03-15 10:53:01.2126|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 283.1281ms 304 application/javascript 
+2023-03-15 10:53:01.8152|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received HEADERS frame for stream ID 13 with length 66 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 10:53:01.8207|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json   
+2023-03-15 10:53:01.8207|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 10:53:02.8691|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending HEADERS frame for stream ID 13 with length 98 and flags END_HEADERS 
+2023-03-15 10:53:02.8691|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 13 with length 16384 and flags NONE 
+2023-03-15 10:53:02.8691|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 13 with length 3401 and flags NONE 
+2023-03-15 10:53:02.8691|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM 
+2023-03-15 10:53:02.8691|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1051.2927ms 200 application/json;charset=utf-8 
+2023-03-15 10:53:27.0465|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received HEADERS frame for stream ID 15 with length 64 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 10:53:27.0465|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received PING frame for stream ID 0 with length 8 and flags NONE 
+2023-03-15 10:53:27.0465|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/BookStore/User/ForgotPassword?EmailId=example%40gmail.com   
+2023-03-15 10:53:27.0465|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending PING frame for stream ID 0 with length 8 and flags ACK 
+2023-03-15 10:53:27.0465|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 10:53:27.0465|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-03-15 10:53:27.0465|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-03-15 10:53:27.1852|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 10:53:27.1852|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' with route pattern 'BookStore/User/ForgotPassword' is valid for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 10:53:27.1852|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' 
+2023-03-15 10:53:28.9578|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-03-15 10:53:28.9818|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' 
+2023-03-15 10:53:29.0067|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider 
+2023-03-15 10:53:29.0950|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgetPassword", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForgetPassword(System.String) on controller BookStore.Controllers.UserController (BookStore). 
+2023-03-15 10:53:29.0950|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-03-15 10:53:29.0950|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-03-15 10:53:29.0950|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-03-15 10:53:29.0950|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-03-15 10:53:29.0950|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-03-15 10:53:29.1023|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller BookStore.Controllers.UserController (BookStore) 
+2023-03-15 10:53:29.1023|DEBUG|BookStore.Controllers.UserController|Nlog injected with the UserController 
+2023-03-15 10:53:29.1023|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller BookStore.Controllers.UserController (BookStore) 
+2023-03-15 10:53:29.1675|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'EmailId' of type 'System.String' ... 
+2023-03-15 10:53:29.1675|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'EmailId' of type 'System.String' using the name 'EmailId' in request data ... 
+2023-03-15 10:53:29.1829|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'EmailId' of type 'System.String'. 
+2023-03-15 10:53:29.1829|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'EmailId' of type 'System.String'. 
+2023-03-15 10:53:29.1829|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'EmailId' of type 'System.String' ... 
+2023-03-15 10:53:29.2017|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'EmailId' of type 'System.String'. 
+2023-03-15 10:53:29.2017|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 10:53:29.2017|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 10:53:29.2017|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 10:53:29.2017|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 10:53:29.2162|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStore.Controllers.UserController.ForgetPassword (BookStore) - Validation state: Valid 
+2023-03-15 10:53:29.2251|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStore.Controllers.UserController.ForgetPassword (BookStore) with arguments (example@gmail.com) 
+2023-03-15 10:53:59.6383|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method BookStore.Controllers.UserController.ForgetPassword (BookStore), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 30409.6133ms. 
+2023-03-15 10:53:59.6383|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 10:53:59.6383|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 10:53:59.6383|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 10:53:59.6383|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 10:53:59.6383|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 10:53:59.6383|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 10:53:59.6563|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-03-15 10:53:59.6563|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-03-15 10:53:59.6563|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-03-15 10:53:59.6563|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-03-15 10:53:59.6563|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-03-15 10:53:59.6563|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-03-15 10:53:59.6563|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-03-15 10:53:59.7430|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending HEADERS frame for stream ID 15 with length 99 and flags END_HEADERS 
+2023-03-15 10:53:59.7430|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 15 with length 68 and flags NONE 
+2023-03-15 10:53:59.7430|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-03-15 10:53:59.7430|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 10:53:59.7430|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 10:53:59.7430|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 10:53:59.7430|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received WINDOW_UPDATE frame for stream ID 15 with length 4 and flags 0x0 
+2023-03-15 10:53:59.7430|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action BookStore.Controllers.UserController.ForgetPassword (BookStore) in 30647.803ms 
+2023-03-15 10:53:59.7430|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' 
+2023-03-15 10:53:59.7712|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending DATA frame for stream ID 15 with length 0 and flags END_STREAM 
+2023-03-15 10:53:59.7712|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 32722.9097ms 200 application/json; charset=utf-8 
+2023-03-15 10:54:01.2737|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" received HEADERS frame for stream ID 17 with length 95 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 10:54:01.4051|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 PUT https://localhost:5001/BookStore/User/ResetPassword?pass=pass&confirmPass=confirm  0 
+2023-03-15 10:54:01.4051|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 10:54:01.4051|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2023-03-15 10:54:01.4051|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-03-15 10:54:01.4359|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|PUT requests are not supported 
+2023-03-15 10:54:01.4359|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|PUT requests are not supported 
+2023-03-15 10:54:01.4548|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/BookStore/User/ResetPassword' 
+2023-03-15 10:54:01.4548|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'BookStore.Controllers.UserController.ResetPassword (BookStore)' with route pattern 'BookStore/User/ResetPassword' is valid for the request path '/BookStore/User/ResetPassword' 
+2023-03-15 10:54:01.4548|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'BookStore.Controllers.UserController.ResetPassword (BookStore)' 
+2023-03-15 10:54:01.4548|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-03-15 10:54:01.4762|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2023-03-15 10:54:01.5028|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2023-03-15 10:54:01.5120|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" sending HEADERS frame for stream ID 17 with length 131 and flags END_STREAM, END_HEADERS 
+2023-03-15 10:54:01.5120|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 107.4586ms 401  
+2023-03-15 10:57:42.3224|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP52LB9NFGR" received FIN. 
+2023-03-15 10:57:42.3860|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" is closed. The last processed stream ID was 17. 
+2023-03-15 10:57:42.3860|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP52LB9NFGR" sending FIN because: "The client closed the connection." 
+2023-03-15 10:57:42.3860|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP52LB9NFGR" stopped. 
+2023-03-15 13:29:24.5483|DEBUG|BookStore.Program|init main 
+2023-03-15 13:29:46.8074|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-03-15 13:29:48.0157|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Rathour\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-03-15 13:29:49.2859|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Rathour\AppData\Local\ASP.NET\DataProtection-Keys\key-1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8.xml'. 
+2023-03-15 13:29:49.8920|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8}. 
+2023-03-15 13:29:50.1640|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8} with expiration date 2023-03-27 09:25:20Z as default key. 
+2023-03-15 13:29:51.0084|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-03-15 13:29:51.0084|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-03-15 13:29:51.0084|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-03-15 13:29:51.0166|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-03-15 13:29:51.0166|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-03-15 13:29:51.0166|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8} as the default key. 
+2023-03-15 13:29:51.0166|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8} was loaded during application startup. 
+2023-03-15 13:29:54.1609|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'. 
+2023-03-15 13:29:54.9135|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: A97F343284D0AE9D116BA6CFF6056E23DB0A5CFC) 
+2023-03-15 13:29:55.2288|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2023-03-15 13:29:55.2288|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2023-03-15 13:29:55.2288|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly BookStore 
+2023-03-15 13:29:55.2288|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-03-15 13:29:55.2288|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-03-15 13:29:55.2419|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-03-15 13:29:55.2419|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-03-15 13:29:55.2419|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\dotnet\workshop\BookStore\BookStore 
+2023-03-15 13:29:55.2419|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-03-15 13:29:55.4389|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGC" accepted. 
+2023-03-15 13:29:55.4633|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGC" started. 
+2023-03-15 13:29:55.6983|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGD" accepted. 
+2023-03-15 13:29:55.6983|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGD" started. 
+2023-03-15 13:29:56.6556|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" accepted. 
+2023-03-15 13:29:56.6704|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" started. 
+2023-03-15 13:29:57.2615|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2023-03-15 13:29:57.4284|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 13:29:57.4284|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received SETTINGS frame for stream ID 0 with length 30 and flags NONE 
+2023-03-15 13:29:57.4284|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 13:29:57.5157|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 13:29:57.5157|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received HEADERS frame for stream ID 1 with length 459 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:29:57.6714|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 13:29:57.7575|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Swagger/index.html   
+2023-03-15 13:29:58.0571|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-03-15 13:29:58.0571|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 13:29:58.5343|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2023-03-15 13:29:58.6348|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending HEADERS frame for stream ID 1 with length 91 and flags END_HEADERS 
+2023-03-15 13:29:59.9166|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 13:29:59.9166|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 13:29:59.9166|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 13:29:59.9166|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 13:29:59.9166|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 1 with length 1003 and flags NONE 
+2023-03-15 13:29:59.9166|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 1 with length 65 and flags NONE 
+2023-03-15 13:29:59.9166|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 1 with length 16 and flags NONE 
+2023-03-15 13:29:59.9355|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2023-03-15 13:29:59.9355|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM 
+2023-03-15 13:29:59.9413|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received HEADERS frame for stream ID 3 with length 109 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:29:59.9413|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js   
+2023-03-15 13:29:59.9413|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2189.4524ms 200 text/html;charset=utf-8 
+2023-03-15 13:29:59.9413|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending HEADERS frame for stream ID 3 with length 151 and flags END_HEADERS 
+2023-03-15 13:29:59.9413|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 3 with length 11988 and flags NONE 
+2023-03-15 13:29:59.9413|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM 
+2023-03-15 13:29:59.9413|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 7.2956ms 200 application/javascript; charset=utf-8 
+2023-03-15 13:30:00.0754|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received HEADERS frame for stream ID 5 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:30:00.0754|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink   
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending HEADERS frame for stream ID 5 with length 196 and flags END_HEADERS 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 9986 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:30:00.2988|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 9975 and flags NONE 
+2023-03-15 13:30:00.3173|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM 
+2023-03-15 13:30:00.3173|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 240.4552ms 200 text/javascript; charset=UTF-8 
+2023-03-15 13:30:00.8662|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received HEADERS frame for stream ID 7 with length 66 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:30:00.8662|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json   
+2023-03-15 13:30:00.8662|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 13:30:01.2760|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending HEADERS frame for stream ID 7 with length 98 and flags END_HEADERS 
+2023-03-15 13:30:01.2760|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 7 with length 16384 and flags NONE 
+2023-03-15 13:30:01.2760|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 7 with length 3401 and flags NONE 
+2023-03-15 13:30:01.2760|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM 
+2023-03-15 13:30:01.2821|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 412.5632ms 200 application/json;charset=utf-8 
+2023-03-15 13:30:05.7719|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP55D1SNEGD" sending FIN because: "The connection was aborted by the application via ConnectionContext.Abort()." 
+2023-03-15 13:30:05.8477|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP55D1SNEGC" sending FIN because: "The connection was aborted by the application via ConnectionContext.Abort()." 
+2023-03-15 13:30:06.8271|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Authentication of the HTTPS connection timed out. 
+2023-03-15 13:30:06.8271|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Authentication of the HTTPS connection timed out. 
+2023-03-15 13:30:06.9109|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGD" stopped. 
+2023-03-15 13:30:06.9109|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGC" stopped. 
+2023-03-15 13:38:01.5849|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" accepted. 
+2023-03-15 13:38:01.5849|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" started. 
+2023-03-15 13:38:01.6141|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2023-03-15 13:38:01.6141|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 13:38:01.6141|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" received SETTINGS frame for stream ID 0 with length 30 and flags NONE 
+2023-03-15 13:38:01.6141|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 13:38:01.6141|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 13:38:01.6141|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" received HEADERS frame for stream ID 1 with length 432 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:38:01.6297|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 13:38:01.6297|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/BookStore/User/ForgotPassword?EmailId=example@gmail.com  0 
+2023-03-15 13:38:01.6297|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 13:38:01.6297|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:3000'. 
+2023-03-15 13:38:01.6297|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-03-15 13:38:01.6508|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:38:01.6508|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:38:01.7304|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 13:38:01.7304|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:38:04.8174|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-03-15 13:38:04.8675|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:38:04.8675|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:38:04.8783|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" sending HEADERS frame for stream ID 1 with length 117 and flags END_STREAM, END_HEADERS 
+2023-03-15 13:38:04.8783|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3248.7503ms 405  
+2023-03-15 13:39:58.9577|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received HEADERS frame for stream ID 9 with length 101 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:39:58.9577|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received PING frame for stream ID 0 with length 8 and flags NONE 
+2023-03-15 13:39:58.9577|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending PING frame for stream ID 0 with length 8 and flags ACK 
+2023-03-15 13:39:58.9577|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/BookStore/User/Login?EmailID=example%40gmail.com&Password=Example%40123  0 
+2023-03-15 13:39:58.9577|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 13:39:58.9577|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'. 
+2023-03-15 13:39:58.9577|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-03-15 13:39:58.9577|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:39:58.9577|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:39:59.0170|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/BookStore/User/Login' 
+2023-03-15 13:39:59.0251|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'BookStore.Controllers.UserController.userLogin (BookStore)' with route pattern 'BookStore/User/Login' is valid for the request path '/BookStore/User/Login' 
+2023-03-15 13:39:59.0251|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'BookStore.Controllers.UserController.userLogin (BookStore)' 
+2023-03-15 13:39:59.0251|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-03-15 13:39:59.0251|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BookStore.Controllers.UserController.userLogin (BookStore)' 
+2023-03-15 13:39:59.0921|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider 
+2023-03-15 13:39:59.2619|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "userLogin", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult userLogin(System.String, System.String) on controller BookStore.Controllers.UserController (BookStore). 
+2023-03-15 13:39:59.2619|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-03-15 13:39:59.2619|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-03-15 13:39:59.2619|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-03-15 13:39:59.2619|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-03-15 13:39:59.2619|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-03-15 13:39:59.2619|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller BookStore.Controllers.UserController (BookStore) 
+2023-03-15 13:39:59.2695|DEBUG|BookStore.Controllers.UserController|Nlog injected with the UserController 
+2023-03-15 13:39:59.2695|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller BookStore.Controllers.UserController (BookStore) 
+2023-03-15 13:39:59.3427|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'EmailID' of type 'System.String' ... 
+2023-03-15 13:39:59.3535|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'EmailID' of type 'System.String' using the name 'EmailID' in request data ... 
+2023-03-15 13:39:59.3664|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'EmailID' of type 'System.String'. 
+2023-03-15 13:39:59.3664|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'EmailID' of type 'System.String'. 
+2023-03-15 13:39:59.3664|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'EmailID' of type 'System.String' ... 
+2023-03-15 13:39:59.3877|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'EmailID' of type 'System.String'. 
+2023-03-15 13:39:59.3877|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'Password' of type 'System.String' ... 
+2023-03-15 13:39:59.3877|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'Password' of type 'System.String' using the name 'Password' in request data ... 
+2023-03-15 13:39:59.3877|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'Password' of type 'System.String'. 
+2023-03-15 13:39:59.3877|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'Password' of type 'System.String'. 
+2023-03-15 13:39:59.3920|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'Password' of type 'System.String' ... 
+2023-03-15 13:39:59.3920|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'Password' of type 'System.String'. 
+2023-03-15 13:39:59.3920|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 13:39:59.3920|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 13:39:59.3920|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 13:39:59.3920|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 13:39:59.4271|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStore.Controllers.UserController.userLogin (BookStore) - Validation state: Valid 
+2023-03-15 13:39:59.4414|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStore.Controllers.UserController.userLogin (BookStore) with arguments (example@gmail.com, Example@123) 
+2023-03-15 13:40:18.5422|INFO|BookStore.Controllers.UserController|Example Is LogIn successfully 
+2023-03-15 13:40:18.5564|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method BookStore.Controllers.UserController.userLogin (BookStore), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 19108.5346ms. 
+2023-03-15 13:40:18.5564|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 13:40:18.5564|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 13:40:18.5564|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 13:40:18.5564|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 13:40:18.5564|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 13:40:18.5564|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 13:40:18.5564|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-03-15 13:40:18.5564|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-03-15 13:40:18.5703|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-03-15 13:40:18.5703|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-03-15 13:40:18.5703|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-03-15 13:40:18.5703|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-03-15 13:40:18.5703|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType4`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-03-15 13:40:18.6386|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending HEADERS frame for stream ID 9 with length 130 and flags END_HEADERS 
+2023-03-15 13:40:18.6386|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 9 with length 290 and flags NONE 
+2023-03-15 13:40:18.6386|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-03-15 13:40:18.6386|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 13:40:18.6386|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 13:40:18.6439|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 13:40:18.6439|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received WINDOW_UPDATE frame for stream ID 9 with length 4 and flags 0x0 
+2023-03-15 13:40:18.6439|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action BookStore.Controllers.UserController.userLogin (BookStore) in 19375.8664ms 
+2023-03-15 13:40:18.6439|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BookStore.Controllers.UserController.userLogin (BookStore)' 
+2023-03-15 13:40:18.6439|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM 
+2023-03-15 13:40:18.6439|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 19692.41ms 200 application/json; charset=utf-8 
+2023-03-15 13:40:38.1491|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received HEADERS frame for stream ID 11 with length 64 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:40:38.1491|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received PING frame for stream ID 0 with length 8 and flags NONE 
+2023-03-15 13:40:38.1491|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending PING frame for stream ID 0 with length 8 and flags ACK 
+2023-03-15 13:40:38.1491|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/BookStore/User/ForgotPassword?EmailId=example%40gmail.com   
+2023-03-15 13:40:38.1491|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 13:40:38.1542|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-03-15 13:40:38.1542|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-03-15 13:40:38.1542|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 13:40:38.1542|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' with route pattern 'BookStore/User/ForgotPassword' is valid for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 13:40:38.1542|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-03-15 13:40:38.1895|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' 
+2023-03-15 13:40:38.1895|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgetPassword", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForgetPassword(System.String) on controller BookStore.Controllers.UserController (BookStore). 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller BookStore.Controllers.UserController (BookStore) 
+2023-03-15 13:40:38.1895|DEBUG|BookStore.Controllers.UserController|Nlog injected with the UserController 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller BookStore.Controllers.UserController (BookStore) 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'EmailId' of type 'System.String' ... 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'EmailId' of type 'System.String' using the name 'EmailId' in request data ... 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'EmailId' of type 'System.String'. 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'EmailId' of type 'System.String'. 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'EmailId' of type 'System.String' ... 
+2023-03-15 13:40:38.1895|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'EmailId' of type 'System.String'. 
+2023-03-15 13:40:38.1895|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 13:40:38.1895|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 13:40:38.1895|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 13:40:38.1895|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 13:40:38.1895|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStore.Controllers.UserController.ForgetPassword (BookStore) - Validation state: Valid 
+2023-03-15 13:40:38.1895|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStore.Controllers.UserController.ForgetPassword (BookStore) with arguments (example@gmail.com) 
+2023-03-15 13:40:39.1686|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method BookStore.Controllers.UserController.ForgetPassword (BookStore), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 974.5868ms. 
+2023-03-15 13:40:39.1686|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 13:40:39.1686|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 13:40:39.1686|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 13:40:39.1686|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 13:40:39.1686|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 13:40:39.1686|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 13:40:39.1686|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-03-15 13:40:39.1686|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-03-15 13:40:39.1686|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-03-15 13:40:39.1686|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-03-15 13:40:39.1686|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-03-15 13:40:39.1686|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-03-15 13:40:39.1686|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-03-15 13:40:39.1686|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending HEADERS frame for stream ID 11 with length 99 and flags END_HEADERS 
+2023-03-15 13:40:39.1686|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 11 with length 68 and flags NONE 
+2023-03-15 13:40:39.1686|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-03-15 13:40:39.1686|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 13:40:39.1686|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 13:40:39.1686|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action BookStore.Controllers.UserController.ForgetPassword (BookStore) in 979.9875ms 
+2023-03-15 13:40:39.1686|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' 
+2023-03-15 13:40:39.1686|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM 
+2023-03-15 13:40:39.1686|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1020.697ms 200 application/json; charset=utf-8 
+2023-03-15 13:40:39.1833|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGE" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 13:40:44.9764|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" received HEADERS frame for stream ID 3 with length 65 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:40:44.9764|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" received PING frame for stream ID 0 with length 8 and flags NONE 
+2023-03-15 13:40:44.9764|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" sending PING frame for stream ID 0 with length 8 and flags ACK 
+2023-03-15 13:40:44.9764|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/BookStore/User/ForgotPassword?EmailId=example@gmail.com  0 
+2023-03-15 13:40:44.9764|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 13:40:44.9764|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:3000'. 
+2023-03-15 13:40:44.9764|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-03-15 13:40:44.9764|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:40:44.9764|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:40:44.9764|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 13:40:44.9764|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:40:44.9764|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-03-15 13:40:44.9764|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:40:44.9764|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:40:44.9764|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" sending HEADERS frame for stream ID 3 with length 117 and flags END_STREAM, END_HEADERS 
+2023-03-15 13:40:44.9764|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 4.2505ms 405  
+2023-03-15 13:41:43.4358|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" received HEADERS frame for stream ID 5 with length 65 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:41:43.4358|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" received PING frame for stream ID 0 with length 8 and flags NONE 
+2023-03-15 13:41:43.4358|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" sending PING frame for stream ID 0 with length 8 and flags ACK 
+2023-03-15 13:41:43.4358|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/BookStore/User/ForgotPassword?EmailId=example@gmail.com  0 
+2023-03-15 13:41:43.4358|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 13:41:43.4358|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:3000'. 
+2023-03-15 13:41:43.4358|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-03-15 13:41:43.4358|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:41:43.4358|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:41:43.4517|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 13:41:43.4517|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:41:43.4517|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-03-15 13:41:43.4517|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:41:43.4517|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:41:43.4517|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" sending HEADERS frame for stream ID 5 with length 117 and flags END_STREAM, END_HEADERS 
+2023-03-15 13:41:43.4517|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 4.982ms 405  
+2023-03-15 13:42:36.8969|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" received HEADERS frame for stream ID 7 with length 65 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:42:36.8969|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" received PING frame for stream ID 0 with length 8 and flags NONE 
+2023-03-15 13:42:36.8969|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" sending PING frame for stream ID 0 with length 8 and flags ACK 
+2023-03-15 13:42:36.8969|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/BookStore/User/ForgotPassword?EmailId=example@gmail.com  0 
+2023-03-15 13:42:36.8969|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 13:42:36.8969|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:3000'. 
+2023-03-15 13:42:36.8969|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-03-15 13:42:36.8969|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:42:36.8969|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:42:36.8969|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 13:42:36.8969|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:42:36.8969|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-03-15 13:42:36.8969|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:42:36.8969|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:42:36.8969|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" sending HEADERS frame for stream ID 7 with length 117 and flags END_STREAM, END_HEADERS 
+2023-03-15 13:42:36.8969|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2.6588ms 405  
+2023-03-15 13:44:51.9398|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" received HEADERS frame for stream ID 9 with length 65 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:44:51.9398|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" received PING frame for stream ID 0 with length 8 and flags NONE 
+2023-03-15 13:44:51.9398|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" sending PING frame for stream ID 0 with length 8 and flags ACK 
+2023-03-15 13:44:51.9398|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/BookStore/User/ForgotPassword?EmailId=example@gmail.com  0 
+2023-03-15 13:44:51.9398|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 13:44:51.9398|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:3000'. 
+2023-03-15 13:44:51.9398|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-03-15 13:44:51.9398|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:44:51.9398|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:44:51.9398|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 13:44:51.9398|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:44:51.9398|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-03-15 13:44:51.9398|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:44:51.9398|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:44:51.9398|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55D1SNEGF" sending HEADERS frame for stream ID 9 with length 117 and flags END_STREAM, END_HEADERS 
+2023-03-15 13:44:51.9398|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3.0618ms 405  
+2023-03-15 13:48:02.9042|DEBUG|BookStore.Program|init main 
+2023-03-15 13:48:05.3345|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-03-15 13:48:05.5117|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Rathour\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-03-15 13:48:05.5669|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Rathour\AppData\Local\ASP.NET\DataProtection-Keys\key-1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8.xml'. 
+2023-03-15 13:48:05.5832|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8}. 
+2023-03-15 13:48:05.6048|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8} with expiration date 2023-03-27 09:25:20Z as default key. 
+2023-03-15 13:48:05.6936|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-03-15 13:48:05.6936|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-03-15 13:48:05.6936|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-03-15 13:48:05.6936|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-03-15 13:48:05.7115|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-03-15 13:48:05.7115|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8} as the default key. 
+2023-03-15 13:48:05.7216|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8} was loaded during application startup. 
+2023-03-15 13:48:06.5460|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'. 
+2023-03-15 13:48:06.6658|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: A97F343284D0AE9D116BA6CFF6056E23DB0A5CFC) 
+2023-03-15 13:48:06.7247|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2023-03-15 13:48:06.7247|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2023-03-15 13:48:06.7247|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly BookStore 
+2023-03-15 13:48:06.7247|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-03-15 13:48:06.7247|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-03-15 13:48:06.7247|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-03-15 13:48:06.7247|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-03-15 13:48:06.7247|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\dotnet\workshop\BookStore\BookStore 
+2023-03-15 13:48:06.7247|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-03-15 13:48:06.8042|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKT" accepted. 
+2023-03-15 13:48:06.8042|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKT" started. 
+2023-03-15 13:48:06.8134|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP55N74QEKT" received FIN. 
+2023-03-15 13:48:06.9307|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. 
+2023-03-15 13:48:06.9503|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKT" stopped. 
+2023-03-15 13:48:06.9660|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP55N74QEKT" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-03-15 13:48:07.3482|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" accepted. 
+2023-03-15 13:48:07.3704|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" started. 
+2023-03-15 13:48:07.5242|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2023-03-15 13:48:07.5242|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 13:48:07.5332|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" received SETTINGS frame for stream ID 0 with length 30 and flags NONE 
+2023-03-15 13:48:07.5332|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 13:48:07.5332|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 13:48:07.5332|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" received HEADERS frame for stream ID 1 with length 459 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:48:07.5881|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 13:48:07.6151|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Swagger/index.html   
+2023-03-15 13:48:07.6926|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-03-15 13:48:07.6926|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 13:48:07.8629|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2023-03-15 13:48:07.8675|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending HEADERS frame for stream ID 1 with length 91 and flags END_HEADERS 
+2023-03-15 13:48:08.0038|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 13:48:08.0038|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 13:48:08.0038|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 13:48:08.0038|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 13:48:08.0038|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 1 with length 1003 and flags NONE 
+2023-03-15 13:48:08.0038|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 1 with length 65 and flags NONE 
+2023-03-15 13:48:08.0038|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 1 with length 16 and flags NONE 
+2023-03-15 13:48:08.0280|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2023-03-15 13:48:08.0280|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM 
+2023-03-15 13:48:08.0350|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 422.116ms 200 text/html;charset=utf-8 
+2023-03-15 13:48:08.0850|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" received HEADERS frame for stream ID 3 with length 109 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:48:08.0850|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" received HEADERS frame for stream ID 5 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:48:08.0850|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js   
+2023-03-15 13:48:08.0850|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink   
+2023-03-15 13:48:08.0850|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending HEADERS frame for stream ID 3 with length 151 and flags END_HEADERS 
+2023-03-15 13:48:08.0850|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 3 with length 11988 and flags NONE 
+2023-03-15 13:48:08.0850|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM 
+2023-03-15 13:48:08.0850|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 6.1011ms 200 application/javascript; charset=utf-8 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending HEADERS frame for stream ID 5 with length 196 and flags END_HEADERS 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 9986 and flags NONE 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:48:08.1161|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:48:08.1483|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 13:48:08.1483|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 9975 and flags NONE 
+2023-03-15 13:48:08.1483|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM 
+2023-03-15 13:48:08.1483|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 65.2313ms 200 text/javascript; charset=UTF-8 
+2023-03-15 13:48:08.2801|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" received HEADERS frame for stream ID 7 with length 66 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:48:08.2801|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json   
+2023-03-15 13:48:08.2801|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 13:48:08.5165|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending HEADERS frame for stream ID 7 with length 98 and flags END_HEADERS 
+2023-03-15 13:48:08.5165|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 7 with length 16384 and flags NONE 
+2023-03-15 13:48:08.5165|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 7 with length 3401 and flags NONE 
+2023-03-15 13:48:08.5165|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM 
+2023-03-15 13:48:08.5165|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 237.4078ms 200 application/json;charset=utf-8 
+2023-03-15 13:48:14.3425|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKV" accepted. 
+2023-03-15 13:48:14.3425|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKV" started. 
+2023-03-15 13:48:14.3627|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKV" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2023-03-15 13:48:14.3627|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKV" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 13:48:14.3627|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKV" received SETTINGS frame for stream ID 0 with length 30 and flags NONE 
+2023-03-15 13:48:14.3627|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKV" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 13:48:14.3627|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKV" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 13:48:14.3627|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKV" received HEADERS frame for stream ID 1 with length 432 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:48:14.3627|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKV" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 13:48:14.3627|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/BookStore/User/ForgotPassword?EmailId=example@gmail.com  0 
+2023-03-15 13:48:14.3627|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 13:48:14.3627|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:3000'. 
+2023-03-15 13:48:14.3627|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-03-15 13:48:14.3753|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:48:14.3753|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 13:48:14.4363|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 13:48:14.4363|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:48:14.5496|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-03-15 13:48:14.5496|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:48:14.5496|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported' 
+2023-03-15 13:48:14.5496|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKV" sending HEADERS frame for stream ID 1 with length 117 and flags END_STREAM, END_HEADERS 
+2023-03-15 13:48:14.5496|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 186.5744ms 405  
+2023-03-15 13:48:49.3809|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP55N74QEKU" received FIN. 
+2023-03-15 13:48:49.3809|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP55N74QEKV" received FIN. 
+2023-03-15 13:48:49.3888|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKV" is closed. The last processed stream ID was 1. 
+2023-03-15 13:48:49.3888|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" is closed. The last processed stream ID was 7. 
+2023-03-15 13:48:49.3888|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP55N74QEKU" sending FIN because: "The client closed the connection." 
+2023-03-15 13:48:49.3888|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP55N74QEKV" sending FIN because: "The client closed the connection." 
+2023-03-15 13:48:49.4365|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKU" stopped. 
+2023-03-15 13:48:49.4370|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEKV" stopped. 
+2023-03-15 13:50:01.5932|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" accepted. 
+2023-03-15 13:50:01.6046|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" started. 
+2023-03-15 13:50:01.6366|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2023-03-15 13:50:01.6366|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 13:50:01.6429|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" received SETTINGS frame for stream ID 0 with length 30 and flags NONE 
+2023-03-15 13:50:01.6429|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 13:50:01.6429|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 13:50:01.6429|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" received HEADERS frame for stream ID 1 with length 385 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 13:50:01.6429|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 13:50:01.6429|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/BookStore/User/ForgotPassword?EmailId=example%40gmail.com   
+2023-03-15 13:50:01.6429|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 13:50:01.6429|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-03-15 13:50:01.6429|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-03-15 13:50:01.6429|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 13:50:01.6429|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' with route pattern 'BookStore/User/ForgotPassword' is valid for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 13:50:01.6429|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' 
+2023-03-15 13:50:01.6555|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-03-15 13:50:01.6555|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' 
+2023-03-15 13:50:01.6555|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider 
+2023-03-15 13:50:01.6930|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgetPassword", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForgetPassword(System.String) on controller BookStore.Controllers.UserController (BookStore). 
+2023-03-15 13:50:01.6930|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-03-15 13:50:01.6930|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-03-15 13:50:01.6930|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-03-15 13:50:01.6930|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-03-15 13:50:01.6930|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-03-15 13:50:01.6930|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller BookStore.Controllers.UserController (BookStore) 
+2023-03-15 13:50:01.6930|DEBUG|BookStore.Controllers.UserController|Nlog injected with the UserController 
+2023-03-15 13:50:01.6930|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller BookStore.Controllers.UserController (BookStore) 
+2023-03-15 13:50:01.7109|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'EmailId' of type 'System.String' ... 
+2023-03-15 13:50:01.7109|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'EmailId' of type 'System.String' using the name 'EmailId' in request data ... 
+2023-03-15 13:50:01.7109|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'EmailId' of type 'System.String'. 
+2023-03-15 13:50:01.7109|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'EmailId' of type 'System.String'. 
+2023-03-15 13:50:01.7109|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'EmailId' of type 'System.String' ... 
+2023-03-15 13:50:01.7109|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'EmailId' of type 'System.String'. 
+2023-03-15 13:50:01.7109|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 13:50:01.7109|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 13:50:01.7109|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 13:50:01.7109|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 13:50:01.7263|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStore.Controllers.UserController.ForgetPassword (BookStore) - Validation state: Valid 
+2023-03-15 13:50:01.7263|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStore.Controllers.UserController.ForgetPassword (BookStore) with arguments (example@gmail.com) 
+2023-03-15 13:50:21.5876|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method BookStore.Controllers.UserController.ForgetPassword (BookStore), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 19851.6523ms. 
+2023-03-15 13:50:21.5876|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 13:50:21.5876|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 13:50:21.5876|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 13:50:21.5876|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 13:50:21.5876|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 13:50:21.5876|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 13:50:21.5876|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-03-15 13:50:21.5939|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-03-15 13:50:21.5939|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-03-15 13:50:21.5939|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-03-15 13:50:21.5939|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-03-15 13:50:21.5939|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-03-15 13:50:21.5939|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-03-15 13:50:21.5939|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" sending HEADERS frame for stream ID 1 with length 99 and flags END_HEADERS 
+2023-03-15 13:50:21.5939|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" sending DATA frame for stream ID 1 with length 68 and flags NONE 
+2023-03-15 13:50:21.5939|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-03-15 13:50:21.5939|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 13:50:21.5939|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 13:50:21.6132|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action BookStore.Controllers.UserController.ForgetPassword (BookStore) in 19912.9441ms 
+2023-03-15 13:50:21.6132|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' 
+2023-03-15 13:50:21.6132|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM 
+2023-03-15 13:50:21.6132|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 19971.3739ms 200 application/json; charset=utf-8 
+2023-03-15 13:50:21.6132|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 13:50:21.6132|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" received WINDOW_UPDATE frame for stream ID 1 with length 4 and flags 0x0 
+2023-03-15 13:51:35.5510|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP55N74QEL0" received FIN. 
+2023-03-15 13:51:35.5510|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" is closed. The last processed stream ID was 1. 
+2023-03-15 13:51:35.5510|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP55N74QEL0" sending FIN because: "The client closed the connection." 
+2023-03-15 13:51:35.5510|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP55N74QEL0" stopped. 
+2023-03-15 14:11:11.4275|DEBUG|BookStore.Program|init main 
+2023-03-15 14:11:14.4802|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-03-15 14:11:14.5809|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Rathour\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-03-15 14:11:14.6809|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Rathour\AppData\Local\ASP.NET\DataProtection-Keys\key-1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8.xml'. 
+2023-03-15 14:11:14.6886|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8}. 
+2023-03-15 14:11:14.6886|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8} with expiration date 2023-03-27 09:25:20Z as default key. 
+2023-03-15 14:11:14.7519|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-03-15 14:11:14.7519|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-03-15 14:11:14.7519|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-03-15 14:11:14.7631|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-03-15 14:11:14.7631|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-03-15 14:11:14.7752|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8} as the default key. 
+2023-03-15 14:11:14.7752|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {1fc0a2f5-3e7d-4b6a-bf39-bc9beac55fd8} was loaded during application startup. 
+2023-03-15 14:11:15.2262|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'. 
+2023-03-15 14:11:15.3079|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: A97F343284D0AE9D116BA6CFF6056E23DB0A5CFC) 
+2023-03-15 14:11:15.3486|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2023-03-15 14:11:15.3486|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2023-03-15 14:11:15.3486|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly BookStore 
+2023-03-15 14:11:15.3486|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-03-15 14:11:15.3486|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-03-15 14:11:15.3486|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-03-15 14:11:15.3486|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-03-15 14:11:15.3486|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\dotnet\workshop\BookStore\BookStore 
+2023-03-15 14:11:15.3486|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-03-15 14:11:15.3778|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP5644VAPNM" received FIN. 
+2023-03-15 14:11:15.4000|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNM" accepted. 
+2023-03-15 14:11:15.4000|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNM" started. 
+2023-03-15 14:11:15.4897|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. 
+2023-03-15 14:11:15.5030|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNM" stopped. 
+2023-03-15 14:11:15.5030|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMP5644VAPNM" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-03-15 14:11:19.0986|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" accepted. 
+2023-03-15 14:11:19.0986|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" started. 
+2023-03-15 14:11:19.2544|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2023-03-15 14:11:19.2544|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 14:11:19.2544|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" received SETTINGS frame for stream ID 0 with length 30 and flags NONE 
+2023-03-15 14:11:19.2544|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 14:11:19.2544|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 14:11:19.2544|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" received HEADERS frame for stream ID 1 with length 459 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 14:11:19.2877|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 14:11:19.3116|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/Swagger/index.html   
+2023-03-15 14:11:19.4215|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-03-15 14:11:19.4215|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 14:11:19.5474|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2023-03-15 14:11:19.5474|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending HEADERS frame for stream ID 1 with length 91 and flags END_HEADERS 
+2023-03-15 14:11:19.7509|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 14:11:19.7509|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 14:11:19.7509|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 14:11:19.7509|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 1 with length 1024 and flags NONE 
+2023-03-15 14:11:19.7509|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 1 with length 1003 and flags NONE 
+2023-03-15 14:11:19.7509|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 1 with length 65 and flags NONE 
+2023-03-15 14:11:19.7509|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 1 with length 16 and flags NONE 
+2023-03-15 14:11:19.7696|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2023-03-15 14:11:19.7696|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM 
+2023-03-15 14:11:19.7791|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 468.2321ms 200 text/html;charset=utf-8 
+2023-03-15 14:11:19.8174|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" received HEADERS frame for stream ID 3 with length 109 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 14:11:19.8174|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" received HEADERS frame for stream ID 5 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 14:11:19.8174|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js   
+2023-03-15 14:11:19.8174|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending HEADERS frame for stream ID 3 with length 151 and flags END_HEADERS 
+2023-03-15 14:11:19.8272|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 3 with length 11988 and flags NONE 
+2023-03-15 14:11:19.8272|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM 
+2023-03-15 14:11:19.8272|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 7.6191ms 200 application/javascript; charset=utf-8 
+2023-03-15 14:11:19.8272|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink   
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending HEADERS frame for stream ID 5 with length 196 and flags END_HEADERS 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 9986 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 10240 and flags NONE 
+2023-03-15 14:11:19.9339|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 9975 and flags NONE 
+2023-03-15 14:11:19.9440|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM 
+2023-03-15 14:11:19.9440|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 115.3425ms 200 text/javascript; charset=UTF-8 
+2023-03-15 14:11:20.1341|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" received HEADERS frame for stream ID 7 with length 66 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 14:11:20.1341|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json   
+2023-03-15 14:11:20.1341|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 14:11:20.3559|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending HEADERS frame for stream ID 7 with length 98 and flags END_HEADERS 
+2023-03-15 14:11:20.3559|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 7 with length 16384 and flags NONE 
+2023-03-15 14:11:20.3559|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 7 with length 3402 and flags NONE 
+2023-03-15 14:11:20.3559|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNN" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM 
+2023-03-15 14:11:20.3559|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 221.5139ms 200 application/json;charset=utf-8 
+2023-03-15 14:11:27.5802|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" accepted. 
+2023-03-15 14:11:27.5802|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" started. 
+2023-03-15 14:11:27.6045|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2023-03-15 14:11:27.6045|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 14:11:27.6045|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" received SETTINGS frame for stream ID 0 with length 30 and flags NONE 
+2023-03-15 14:11:27.6045|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 14:11:27.6045|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 14:11:27.6069|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" received HEADERS frame for stream ID 1 with length 432 and flags END_STREAM, END_HEADERS, PRIORITY 
+2023-03-15 14:11:27.6069|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2023-03-15 14:11:27.6069|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/BookStore/User/ForgotPassword?EmailId=example@gmail.com  0 
+2023-03-15 14:11:27.6069|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-03-15 14:11:27.6260|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:3000'. 
+2023-03-15 14:11:27.6260|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-03-15 14:11:27.6260|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 14:11:27.6260|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-03-15 14:11:27.6866|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 14:11:27.6918|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' with route pattern 'BookStore/User/ForgotPassword' is valid for the request path '/BookStore/User/ForgotPassword' 
+2023-03-15 14:11:27.6918|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' 
+2023-03-15 14:11:27.7910|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-03-15 14:11:27.7910|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' 
+2023-03-15 14:11:28.2357|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider 
+2023-03-15 14:11:28.3083|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgetPassword", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ForgetPassword(System.String) on controller BookStore.Controllers.UserController (BookStore). 
+2023-03-15 14:11:28.3083|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-03-15 14:11:28.3083|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-03-15 14:11:28.3083|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-03-15 14:11:28.3083|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-03-15 14:11:28.3083|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-03-15 14:11:28.3083|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller BookStore.Controllers.UserController (BookStore) 
+2023-03-15 14:11:28.3083|DEBUG|BookStore.Controllers.UserController|Nlog injected with the UserController 
+2023-03-15 14:11:28.3083|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller BookStore.Controllers.UserController (BookStore) 
+2023-03-15 14:11:28.3274|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'EmailId' of type 'System.String' ... 
+2023-03-15 14:11:28.3317|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'EmailId' of type 'System.String' using the name 'EmailId' in request data ... 
+2023-03-15 14:11:28.3317|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'EmailId' of type 'System.String'. 
+2023-03-15 14:11:28.3317|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'EmailId' of type 'System.String'. 
+2023-03-15 14:11:28.3317|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'EmailId' of type 'System.String' ... 
+2023-03-15 14:11:28.3317|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'EmailId' of type 'System.String'. 
+2023-03-15 14:11:28.3317|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 14:11:28.3317|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 14:11:28.3317|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 14:11:28.3317|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 14:11:28.3317|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStore.Controllers.UserController.ForgetPassword (BookStore) - Validation state: Valid 
+2023-03-15 14:11:28.3317|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStore.Controllers.UserController.ForgetPassword (BookStore) with arguments (example@gmail.com) 
+2023-03-15 14:11:55.6913|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method BookStore.Controllers.UserController.ForgetPassword (BookStore), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 27342.4603ms. 
+2023-03-15 14:11:55.6913|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 14:11:55.6913|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-03-15 14:11:55.6913|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 14:11:55.6913|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-03-15 14:11:55.6913|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 14:11:55.6913|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 14:11:55.6913|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-03-15 14:11:55.6913|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-03-15 14:11:55.6913|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-03-15 14:11:55.6913|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-03-15 14:11:55.6913|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-03-15 14:11:55.6913|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-03-15 14:11:55.6913|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType3`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-03-15 14:11:55.6913|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" sending HEADERS frame for stream ID 1 with length 130 and flags END_HEADERS 
+2023-03-15 14:11:55.6913|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" sending DATA frame for stream ID 1 with length 68 and flags NONE 
+2023-03-15 14:11:55.7066|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-03-15 14:11:55.7066|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 14:11:55.7066|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-03-15 14:11:55.7066|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action BookStore.Controllers.UserController.ForgetPassword (BookStore) in 27400.4877ms 
+2023-03-15 14:11:55.7066|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BookStore.Controllers.UserController.ForgetPassword (BookStore)' 
+2023-03-15 14:11:55.7066|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM 
+2023-03-15 14:11:55.7066|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 28099.1619ms 200 application/json; charset=utf-8 
+2023-03-15 14:11:55.7066|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2023-03-15 14:11:55.7066|TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMP5644VAPNO" received WINDOW_UPDATE frame for stream ID 1 with length 4 and flags 0x0 
